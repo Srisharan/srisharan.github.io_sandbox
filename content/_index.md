@@ -14,8 +14,7 @@ sections:
       text: |
         <br>
         
-        Earthquakes are one of the most significant and least predictable natural hazards that society faces. The USU **Rock Deformation and Earthquake Mechanics Group**, led by Dr. Srisharan Shreedharan, conducts research on the mechanics of earthquakes, faulting, friction, and granular deformation processes using experimental, numerical, and observational techniques. A key focus is the scaling and scalability of our experimental and numerical observations to seismogenic faults.
-        Funded MS and PhD are currently available. If you’re curious about earthquakes, friction or rock deformation, send [me an email](mailto: srisharan.shreedharan@usu.edu) with your CV and a short statement on why you are interested in working with me, and we can start a conversation.
+        Earthquakes are one of the most significant and least predictable natural hazards that society faces. The USU **Rock Deformation and Earthquake Mechanics Group**, led by Dr. Srisharan Shreedharan, conducts research on the mechanics of earthquakes, faulting, friction, and granular deformation processes using experimental, numerical, and observational techniques. 
   
 #  - block: collection
 #    content:

@@ -1,17 +1,5 @@
 ---
 title: Facilities
-type: landing
-
-sections:
-  - block: markdown
-    content:
-      title: Lab Facilities
-      subtitle: 
-      text: 
-    design:
-      # See Page Builder docs for all section customization options.
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
 ---
 
 ## Large (1 m) direct shear apparatus

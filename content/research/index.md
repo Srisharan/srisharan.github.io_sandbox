@@ -1,50 +1,28 @@
 ---
 title: Research
-type: landing
-
-sections:
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      subtitle: My subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-      filters:
-        # Folders to display content from
-        folders:
-          - project
-        # Only show content with these tags
-        tags: []
-        # Exclude content with these tags
-        exclude_tags: []
-        # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
-        kinds:
-          - page
-      # Field to sort by, such as Date or Title
-      sort_by: 'Date'
-      sort_ascending: false
-      # Default portfolio filter button
-      # 0 corresponds to the first button below and so on
-      # For example, 0 will default to showing all content as the first button below shows content with *any* tag
-      default_button_index: 0
-      # Filter button toolbar (optional).
-      # Add or remove as many buttons as you like.
-      # To show all content, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the button toolbar, delete the entire `buttons` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
-    design:
-      # See Page Builder docs for all section customization options.
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      # Choose a listing view
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
 ---
+
+My research currently focuses on four main themes and many projects fall under more than one of them:
+
+## Processes associated with earthquake initiation, propagation, and termination 
+<img src="/research/precursor.jpg" alt="Precursory deformation before lab stick-slip events" width="500"/>
+
+Earthquakes are complex frictional instabilities. We are interested in how and why earthquakes start, propagate, and stop in the multitude of ways that they do. We can generate smaller, scaled earthquakes in the laboratory and study them closely with a variety of instrumentation to better understand the stresses and frictional properties that are conducive to the generation of various slip modes including earthquakes, slow slip events, and stable creep. Recently, we've been interested in the physics and geophysical observations of preseismic slip and postseismic relaxation - using active ultrasonic techniques and acoustic emission monitoring.  
+
+Related publications:  
+1. [Evolution of frictional state in response to rapid changes in normal stress](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JB016885)
+
+## Mechanics of near-trench deformation at subduction zones
+<img src="/research/science.jpg" alt="competition between loading and healing" width="500"/>
+
+We use an Elsys TraNET EPC computer for ultrasonic (active/passive) data acquisition and storage. The Elsys TraNET EPC performs the acquisition of raw, unfiltered data from 15 Panametrics p- and s-wave transducers at 0.5-50 MHz, and a 20-channel Acoustic Emission (AE) amplifier filters and boosts small signals from sensors. A TiePie HandyScope 5 200 MHz arbitrary waveform generator is configured to provide input signals for data acquisition and storage in active/controlled source mode. A National Instruments NI-cDAQ containing 12 channels for strain input and 32 differetial or 64 single-ended channels for analog voltage input, connected to the TraNET EPC, is configured to sample, record, and save strain and voltage inputs at 10 kHz.
+
+## Frictional and microstructural characterization of fault zones
+<img src="/research/hikurangi.jpg" alt="Frictional stability of Hikurangi inputs" width="500"/>
+
+The lab operates an electromechanical direct/residual shear system capable of applying up to 2,500 lbf (11 kN) vertical and horizontal load capacity, and deformation rates of 6 x 10-6 to 33 mm/min (0.1 nm/s - 16.67 μm/s). Shear testing can currently be performed on 1" and 2” round samples. The apparatus is configured to record and store normal and shear loads and displacements (4 channels) with the ability to record additional sensors/channels.
+
+## Machine learning applications to fault zone processes
+<img src="/research/forecasting.jpg" alt="Forecasting laboratory stick-slip instabilities" width="500"/>
+
+The lab also utilizes storage and computational resources at the [University of Utah Center for High Performance Computing](https://www.chpc.utah.edu/). Additionally, we have access to and frequently utilize MATLAB and Python for data analysis and post-processing, and PyLith for finite element modeling of subduction zone deformation processes.

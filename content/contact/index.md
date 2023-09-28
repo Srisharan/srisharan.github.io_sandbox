@@ -8,7 +8,7 @@ sections:
   - block: contact
     content:
       title: 
-      text: |- I am looking for motivated MS and PhD students to work on a variety of projects. Drop me a line with your CV and a brief statement of interest to start a conversation. 
+      text: I am looking for motivated MS and PhD students to work on a variety of projects. Drop me a line with your CV and a brief statement of interest to start a conversation. 
         
       email: srisharan.shreedharan@usu.edu
       address:

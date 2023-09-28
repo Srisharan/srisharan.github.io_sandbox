@@ -3,7 +3,7 @@ title: Facilities
 ---
 
 ## Large (1 m) direct shear apparatus
-<img src="/EQMachine.jpg" alt="USU earthquake machine" width="500"/>
+<img src="/content/facilities/EQMachine.jpg" alt="USU earthquake machine" width="500"/>
 
 The lab operates a custom-built 1-meter biaxial deformation apparatus based on the designs of the large biaxial apparatus designed by collaborator [Greg McLaskey](https://courses.cit.cornell.edu/mclaskey/facilities.html). This apparatus consists of a steel load frame with hydraulically driven normal and shear loads. A cumulative normal load of up to 4 MN is supplied through four Enerpac RSM1000 cylinders driven by a 10000 psi hydraulic hand pump. Up to 1.5 MN of shear load is supplied through an Enerpac RSM1500 cylinder driven by a 12000 psi Vindum VP-12K dual cylinder continuous flow pump which can be driven in constant flow rate (displacement rate) or constant pressure (stressing rate) modes. The load frame can accommodate samples of up to 1.2 m fault length and is currently configured to deform sediment/gouge/powder sandwiched between 0.85 m long Poly(methyl methacrylate) (PMMA) blocks. Sample averaged shear and normal stresses are measured at the respective hydraulic cylinders via two PX359 10 kpsi pressure transducers. We have the capacity to instrument the fault/blocks with up to ten strain gauge rosettes to measure local shear stresses/strains, eight ILD1320 laseroptical displacement sensors capable of measuring up to 10 mm of slip with 1 μm resolution, and fifteen Panametrics V103 ultrasonic contact transducers, all of which can be operated simultaneously.
 

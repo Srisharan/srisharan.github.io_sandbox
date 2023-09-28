@@ -9,20 +9,23 @@ My research currently focuses on four main themes and many projects fall under m
 
 Earthquakes are complex frictional instabilities. We are interested in how and why earthquakes start, propagate, and stop in the multitude of ways that they do. We can generate smaller, scaled earthquakes in the laboratory and study them closely with a variety of instrumentation to better understand the stresses and frictional properties that are conducive to the generation of various slip modes including earthquakes, slow slip events, and stable creep. Recently, we've been interested in the physics and geophysical observations of preseismic slip and postseismic relaxation - using active ultrasonic techniques and acoustic emission monitoring.  
 
-Related publications:  
-1. [Evolution of frictional state in response to rapid changes in normal stress](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JB016885)
+(Some) related publications:  
+1. [Variations in p-wave amplitudes and velocities modulated by competing effects of slip and stress](https://www.sciencedirect.com/science/article/pii/S0012821X20305677)
+2. [Pre- and post-seismic changes in p-wave amplitudes during stick-slips](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL086986)
+3. [Evolution of frictional state in response to rapid changes in normal stress](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JB016885)
 
 ## Mechanics of near-trench deformation at subduction zones
 <img src="/research/science.jpg" alt="competition between loading and healing" width="500"/>
 
-We use an Elsys TraNET EPC computer for ultrasonic (active/passive) data acquisition and storage. The Elsys TraNET EPC performs the acquisition of raw, unfiltered data from 15 Panametrics p- and s-wave transducers at 0.5-50 MHz, and a 20-channel Acoustic Emission (AE) amplifier filters and boosts small signals from sensors. A TiePie HandyScope 5 200 MHz arbitrary waveform generator is configured to provide input signals for data acquisition and storage in active/controlled source mode. A National Instruments NI-cDAQ containing 12 channels for strain input and 32 differetial or 64 single-ended channels for analog voltage input, connected to the TraNET EPC, is configured to sample, record, and save strain and voltage inputs at 10 kHz.
+Understanding how strain is accumulated and released near the trench at subduction zones is crucial for a better understanding of tsunamigenic earthquakes. Some of our recent work has focused on recasting this problem as a competition between fault healing/restrengthening and tectonic loading. We used this framework to show [the origins of shallow slow slip at the northern Hikurangi margin](https://www.science.org/doi/abs/10.1126/science.adf4930) by combining experimentally determined frictional healing and numerically estimated annual stressing rates.  
 
 ## Frictional and microstructural characterization of fault zones
 <img src="/research/hikurangi.jpg" alt="Frictional stability of Hikurangi inputs" width="500"/>
 
-The lab operates an electromechanical direct/residual shear system capable of applying up to 2,500 lbf (11 kN) vertical and horizontal load capacity, and deformation rates of 6 x 10-6 to 33 mm/min (0.1 nm/s - 16.67 μm/s). Shear testing can currently be performed on 1" and 2” round samples. The apparatus is configured to record and store normal and shear loads and displacements (4 channels) with the ability to record additional sensors/channels.
+Experimentally determined values of fault frictional strength and stability can be used to better understand the boundary conditions necessary to sustain a variety of tectonic slip modes including elastodynamic ruptures and slow slip. We utilized samples acquired during [International Ocean Discovery Program Expedition 375](http://iodp.tamu.edu/scienceops/expeditions/hikurangi_subduction_margin.html) to experimentally constrain the [frictional behavior of inputs to the shallow plate boundary](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GC010107) at the northern Hikurangi margin. Current and ongoing work is focused on the Wasatch Fault Zone in Utah. 
 
 ## Machine learning applications to fault zone processes
 <img src="/research/forecasting.jpg" alt="Forecasting laboratory stick-slip instabilities" width="500"/>
 
-The lab also utilizes storage and computational resources at the [University of Utah Center for High Performance Computing](https://www.chpc.utah.edu/). Additionally, we have access to and frequently utilize MATLAB and Python for data analysis and post-processing, and PyLith for finite element modeling of subduction zone deformation processes.
+Although laboratory stick-slip instabilities are not nearly as complex as crustal earthquakes, they can be quite complex and somewhat unpredictable. We have successfully used simple machine learning algorithms on geophysical observables such as seismic wave amplitudes and velocities to forecast these stick-slips in cm-scale faults in the laboratory. Current and future efforts will focus on determining whether such methods are applicable to larger, more complex faults in the laboratory and in nature.  
+Related publications: [Shreedharan et al., 2022](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JB021588) and [Shokouhi et al., 2021](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL093187)
